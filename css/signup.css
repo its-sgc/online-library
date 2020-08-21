@@ -1,0 +1,71 @@
+
+        .description{
+			margin-left:10%; 
+			top:20%;
+			position: absolute;	
+			color:darkkhaki;
+		}
+		.description h4{
+			font-size:30px;
+			font-weight:700;
+			padding-left:55px;
+			padding-top:65px;
+			
+
+		}
+	
+		.form {
+			margin-left:75%;
+			display:block;
+			position:fixed;
+			top:17%;
+			color:black;
+			background:rgba(76, 175, 80, 0.3);
+			border-radius:10px;
+			width:20%; 
+			padding-left:40px;
+			
+}
+
+{
+	width:80%;	
+}
+
+		.form input
+		{
+			border-radius:4px; 
+			padding:7px;
+			height:25px;
+			
+		}
+		
+		body{
+			background-image:url('img/w1.jpg');
+		background-size:100% 100% ;
+		background-repeat: no-repeat;
+		z-index:-1;
+
+		}
+		.signup-img{
+			z-index:1;
+			margin-top:10%;
+			margin-left:14%;
+		}
+	
+		.form button:hover{
+			background-color:cadetblue;
+			padding-top:2px;
+			padding-bottom:2px;
+			padding-left:10px;
+			padding-right:10px;
+		}
+		.form button {
+			width:200px;
+			height:30px;
+			background-color:darkkhaki;
+			border-radius:7px;
+			font-weight:700;
+
+		}
+
+	

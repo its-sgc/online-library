@@ -1,0 +1,32 @@
+.contact_cards{
+	margin: 0 auto;
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-gap:40px;
+	background-color: black;
+	padding: 15px;
+	border:5px solid grey;
+}
+.conatct_card{
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	/*background-color: #fff;*/
+	/*color:#fff;*/
+	border:2px solid grey;
+	
+}
+.contact_card-header{
+background-color: 	#696969;
+}
+.conatct_card-header>h2{
+color: white;
+}
+.contact_card-content{
+	background-color: #fff;
+
+}
+.contact_card-conclusion{
+	background-color: 	#696969;
+	/*display: block;*/
+	color: #fff;
+}

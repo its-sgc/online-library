@@ -1,0 +1,32 @@
+.cards{
+	margin: 0 auto;
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap:40px;
+	background-color: black;
+	padding: 15px;
+}
+.card{
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	background-color: black;
+	border:5px solid grey;
+}
+.card img{
+	height: 250px;
+	/*width: 100%;*/
+	display: block;
+}
+.card-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 2.5;
+	background-color: #fafafa;
+}
+.card-content>button{
+	padding: 10px;
+	margin: 10px;
+	background-color: purple;
+	color: white;
+}

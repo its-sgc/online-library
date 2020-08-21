@@ -1,0 +1,25 @@
+.box{
+			width:60%;
+			margin-top:100px;
+			padding: 10px;
+			background:green;
+			color:white;
+			margin-left:20%;
+			box-shadow: 8px 8px 10px lightgreen;
+
+}
+             		.box p{
+             			font-size: 20px;
+             		}
+		
+.main{
+	padding: 10px;
+	align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 301px;
+    background-color: grey;
+			margin-top: 30px;
+			margin-left:40%;
+					}
+		

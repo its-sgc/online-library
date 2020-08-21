@@ -1,0 +1,51 @@
+
+		.con1{
+			
+			width:60%;
+			margin-top:100px;
+			display: block;
+			background: skyblue;
+			color:white;
+			margin-left:20%;
+			border-radius:10px; 
+			box-shadow: 0 3px 0 lightpink;
+}
+             		.con1 p{
+             			font-size: 20px;
+             		}
+
+.con{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		background-color: grey;
+		width: 100px;
+		padding: 10px;
+			margin-top: 50px;
+			margin-left: 40%;
+		}
+
+		.con input{
+			width: 40%;
+			padding:5px 10px;
+			margin-bottom: 5px;
+			border-radius:10px; 
+		}
+		.con textarea{
+			border-radius:10px;
+			width: 40%;
+			height: 80px;
+			padding:5px 10px;
+		}
+		.con .btnc{
+	
+		background: green;
+font-size:30px;
+color:#fff;
+border:none;
+margin:0 10px;
+border-radius:3px;
+box-shadow: 0 3px 0 lightgreen;
+cursor: pointer;
+
+}
