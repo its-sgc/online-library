@@ -6,34 +6,28 @@
 	
 <div class="slideshow-container">
 
+<?php
+	
+	$con=mysql_connect('localhost','root','') or die(mysql_error());
+	$db=mysql_select_db('db_asian',$con) or die(mysql_error());
+	$query="select * from tbl_slider";
+	$result=mysql_query($query,$con) or die(mysql_error());
+	while ($row=mysql_fetch_array($result)) {
+
+
+?>
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="img/v4.jpg" style="width:100%; height:500px">
+  <img src="backend/<?php echo $row[3]; ?>" style="width:100%; height:500px">
   <div class="text">
-	<h5><b>Are you searching a book............?</b></h5>
-<h3><i>Free book library</i></h3>
+	<h5><b><?php echo $row[1];  ?></b></h5>
+	<h3><i><?php echo $row[2]; ?></i></h3>
 		<a class="get" href="signup.php">Get Started</a><br>
 		<a class="does" href="login.php"><i>Doesn't have an account??</i></a>
-	</div>
+</div>
 </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="img/v6.jpg" style="width:100%; height:500px">
-  <div class="text"><h5><b>Are you searching a book............?</b></h5>
-<h3><i>Free book library</i></h3>
-		<a class="get" href="signup.php">Get Started</a><br>
-		<a class="does" href="login.php"><i>Doesn't have an account??</i></a>></div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="img/a4.jpg" style="width:100%; height:500px">
-  <div class="text"><h5><b>Are you searching a book............?</b></h5>
-<h3><i>Free book library</i></h3>
-		<a class="get" href="signup.php">Get Started</a><br>
-		<a class="does" href="login.php"><i>Doesn't have an account??</i></a></div>
-</div>
+<?php } ?>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
